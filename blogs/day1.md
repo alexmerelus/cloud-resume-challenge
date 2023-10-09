@@ -4,9 +4,21 @@
 
 Today marked the beginning of my journey with the Cloud Resume Challenge. As I set forth, my aim was clear: construct a cloud-based resume using AWS services. But as I soon realized, the path was paved with unexpected challenges, learning curves, and, yes, moments of triumph.
 
-## **Frontend Odyssey:**
+### Frontend Development with Visual Studio Code:
 
-The day began with the hunt for the perfect minimalistic HTML resume template. After exploring myriad options, I found one that echoed my style. Then came the introduction to Visual Studio Code—a tool unfamiliar to me. Armed with enthusiasm, I delved into customization, ensuring the template reflected my professional journey.
+After selecting a minimalistic HTML resume template online, I turned to **Visual Studio Code (VS Code)** to customize it further. As someone who had no prior experience with VS Code, the initial moments felt like diving into uncharted waters. But soon, the intuitive interface and rich features of this code editor began to shine.
+
+VS Code provided an organized and efficient environment for my code edits. The integrated terminal was especially handy, allowing me to run commands without leaving the editor. Syntax highlighting and IntelliSense (VS Code’s code completion feature) proved invaluable, guiding me through HTML edits and ensuring I stayed on the right track.
+
+The live preview feature, which instantly rendered the changes I made to the HTML, was a game-changer. It enabled me to visualize my resume in real-time, helping me fine-tune the design and content seamlessly.
+
+### **Screenshots as Evidence:**
+
+To provide a visual narrative of my journey, I decided to include screenshots in my GitHub blog. This posed the question: what's the best way to embed images in a GitHub repository?
+
+#### **The GitHub Hack**:
+
+While the conventional method involves storing images directly within the repository, I came across a neat GitHub hack. By creating a new issue and dragging & dropping the image into it, GitHub automatically provides a direct URL for the image, even without submitting the issue. This URL can then be used to embed the image in markdown files. A quick and efficient way, especially for temporary or quick visual references!
 
 ## **Venturing into AWS S3 Hosting:**
 
