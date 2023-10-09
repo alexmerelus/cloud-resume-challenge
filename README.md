@@ -10,7 +10,7 @@ This project is a manifestation of the Cloud Resume Challenge, where I've employ
 - **CI/CD**: Automatic deployment and testing using GitHub Actions.
 
 ## Architecture Diagram
-(You should insert an image or link to your architecture diagram here.)
+(architecture diagram here coming soon.)
 
 ## Technologies Used
 - **AWS Services**: S3 for static hosting, Lambda for serverless computing, API Gateway for routing, DynamoDB for storing visitor counts.
