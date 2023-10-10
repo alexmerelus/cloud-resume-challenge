@@ -1,4 +1,4 @@
-# My Cloud Resume
+# My [Cloud Resume](https://s3.amazonaws.com/alexmerelus.me/Cloud+Resume/index.html) ☁️
 
 ## Introduction
 This project is a manifestation of the Cloud Resume Challenge, where I've employed several AWS services and best practices to deploy a static website, integrated with a backend to showcase my resume and cloud skills. With a primary focus on cloud security and compliance templates, this endeavor was both challenging and rewarding.
