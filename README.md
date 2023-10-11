@@ -1,7 +1,7 @@
 # My [Cloud Resume](https://www.alexmerelus.me) ☁️
 
 ## Introduction
-This project is a manifestation of the Cloud Resume Challenge, where I've employed several AWS services and best practices to deploy a static website, integrated with a backend to showcase my resume and cloud skills. With a primary focus on cloud security and compliance templates, this endeavor was both challenging and rewarding.
+This project is a manifestation of the Cloud Resume Challenge, where I've employed several AWS services and best practices to deploy a static website, integrated with a backend to showcase my resume and cloud skills. With a primary focus on cloud security and compliance templates.
 
 ## Features
 - **Static Website**: Hosted on AWS S3, presenting my professional journey.
@@ -15,15 +15,9 @@ This project is a manifestation of the Cloud Resume Challenge, where I've employ
 
 ## Technologies Used
 - **AWS Services**: S3 for static hosting, Lambda for serverless computing, API Gateway for routing, DynamoDB for storing visitor counts.
-- **Infrastructure as Code (IaC)**: AWS CloudFormation (You can update this if you decide on another tool).
+- **Infrastructure as Code (IaC)**: AWS CloudFormation (Coming Soon)
 - **CI/CD**: GitHub Actions for automated deployments and testing.
 
-## Setup and Deployment
-To replicate this project:
-1. Ensure AWS environment is set up with necessary permissions.
-2. Clone this GitHub repository.
-3. Use CloudFormation (or your IaC tool) to deploy the infrastructure.
-4. Follow additional setup instructions provided in the deployment scripts.
 
 ## Challenges and Learning
 Venturing into the cloud ecosystem, especially AWS, was a journey filled with challenges. From understanding the intricacies of S3 bucket policies to setting up a serverless backend with Lambda, every step was a learning experience. Emphasizing security and compliance templates deepened my understanding of the importance of cloud security.
@@ -32,7 +26,7 @@ Venturing into the cloud ecosystem, especially AWS, was a journey filled with ch
 - **Cloud Security Focus**: Incorporated best practices and templates to ensure the cloud infrastructure is secure and compliant.
 
 ## Acknowledgements
-Immensely grateful to the Cloud Resume Challenge guidelines and the OpenAI community for their valuable resources and insights.
+Immensely grateful to the Cloud Resume Challenge guidelines and community for valuable resources and insights.
 
 ## Contact Information
 - **LinkedIn**: [Alex Merelus](https://linkedin.com/in/alexmerelus)
