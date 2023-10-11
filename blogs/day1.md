@@ -44,3 +44,5 @@ To make sure my website was secure via HTTPS, I turned to Amazon CloudFront with
 
 The little bumps in the road reminded me of a few things; just like most things in life, when working in the cloud, things can change quickly, but there’s a solution to everything and being a flexible and knowing when to pivot is part of the journey. 💡
 
+You can find my official cloud resume here 👉🏿:  [Alex's Cloud Resume](https://d29mctvgvn7ma0.cloudfront.net/index.html)
+
