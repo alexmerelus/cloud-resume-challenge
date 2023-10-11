@@ -10,7 +10,8 @@ This project is a manifestation of the Cloud Resume Challenge, where I've employ
 - **CI/CD**: Automatic deployment and testing using GitHub Actions.
 
 ## Architecture Diagram
-(architecture diagram here coming soon.)
+![Screenshot 2023-10-11 at 6 36 16 PM](https://github.com/alexmerelus/cloud-resume-challenge/assets/138509128/741de91f-bd8e-4385-ba48-27ca70c83378)
+
 
 ## Technologies Used
 - **AWS Services**: S3 for static hosting, Lambda for serverless computing, API Gateway for routing, DynamoDB for storing visitor counts.
