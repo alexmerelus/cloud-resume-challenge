@@ -1,46 +1,46 @@
-# Day 1 of the Cloud Resume Challenge: Embracing Triumphs, Tackling Tribulations
+# Day 1 of the Cloud Resume Challenge
 
 ## **Introduction:**
 
-Today marked the beginning of my journey with the Cloud Resume Challenge. As I set forth, my aim was clear: construct a cloud-based resume using AWS services. But as I soon realized, the path was paved with unexpected challenges, learning curves, and, yes, moments of triumph.
+I've spent my entire professional journey in IT, with a focus on cybersecurity in recent years. Always eager to grow both professionally and personally, I turned to insights from fellow cybersecurity experts online. This led me to discover a captivating "cloud resume challenge," introduced by Forrest Brazeal. I was initially unfamiliar with the concept, but after delving into the details at [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/), I felt confident in my ability to tackle it. Now, I'm chronicling each step of this endeavor, hoping to refine my expertise further and perhaps inspire some of you to embark on this challenge as well.
 
-### Frontend Development with Visual Studio Code:
+### Setting the Stage on the Frontend with Visual Studio Code:
 
-After selecting a minimalistic HTML resume template online, I turned to **Visual Studio Code (VS Code)** to customize it further. As someone who had no prior experience with VS Code, the initial moments felt like diving into uncharted waters. But soon, the intuitive interface and rich features of this code editor began to shine.
+The mission was clear: assemble a cloud-based resume. Luckily, I already had an AWS account, which meant I could dive straight in and make use of the different AWS tools available. My first task? Setting up a static website on Amazon S3.
 
-VS Code provided an organized and efficient environment for my code edits. The integrated terminal was especially handy, allowing me to run commands without leaving the editor. Syntax highlighting and IntelliSense (VS Code’s code completion feature) proved invaluable, guiding me through HTML edits and ensuring I stayed on the right track.
+Making sure I had the correct permissions and access to services like S3, Lambda, and DynamoDB was essential. Then I created a new user specifically for this project, taking extra precautions to adhere to best practices. 
 
-The live preview feature, which instantly rendered the changes I made to the HTML, was a game-changer. It enabled me to visualize my resume in real-time, helping me fine-tune the design and content seamlessly.
+For the frontend of this cloud challenge, I google the interweb for a cool HTML resume template. After exploring a few, I landed on one that perfectly matched my aesthetic. Diving into **Visual Studio Code (VS Code)** was a fresh experience for me, but its integrated terminal was a game-changer. It let me run commands without ever leaving the editor. Plus, by adding the “open with live server” plugin, I could see my changes in real-time, making sure It was looking the way I intended.
+
+**Gitty**
+
+With my AWS environment ready, I turned to GitHub to kickstart my repository. After crafting a README that would serve as the backbone of my project's documentation, I was all set for my first commit. But here's where things got tricky.
+
+I ran into an error while trying to push to GitHub: "Support for password authentication was removed." Confused, but only to learn that GitHub had stopped using password authentication for pushing commits smh.
+
+But Instead of throwing in the towel, I found a workaround using a GitHub personal access token. This token acts as an alternative to the traditional password, granting permissions to various GitHub actions. Got my token sorted with the right permissions, plugged it in, and bam! My commit was up and running. 🚀
 
 ### **Screenshots as Evidence:**
 
 To provide a visual narrative of my journey, I decided to include screenshots in my GitHub blog. This posed the question: what's the best way to embed images in a GitHub repository?
 
-#### **The GitHub Hack**:
+Enter the GitHub Hack: While the conventional method involves storing images directly within the repository, I came across a cool GitHub hack. When I create a new issue and drag & drop the image into it, GitHub automatically provides a direct URL for the image, even without submitting the issue. This URL can then be used to embed the image in markdown files. A quick and efficient way, especially for temporary or quick visual references!
 
-While the conventional method involves storing images directly within the repository, I came across a neat GitHub hack. By creating a new issue and dragging & dropping the image into it, GitHub automatically provides a direct URL for the image, even without submitting the issue. This URL can then be used to embed the image in markdown files. A quick and efficient way, especially for temporary or quick visual references!
+## **AWS S3 Hosting:**
 
-## **Venturing into AWS S3 Hosting:**
+Once the resume was ready for its online debut, I turned to Amazon S3 for hosting. Setting up an S3 bucket was straightforward, but I faced an blip when trying to access the website. The internets favorite "404 Forbidden" error showed up. With some research and adjustments to the bucket policy, I managed to get the site live.
 
-With my resume refined and ready, I turned to Amazon S3, anticipating a smooth hosting experience. However, the universe had other plans. Upon trying to access the site, I was met with the formidable "403 Forbidden" error. Not one to be deterred, I researched, reconfigured the bucket policy, and, after some tense moments, celebrated as the site went live.
-
-Yet, the challenges persisted. Linking my custom domain, hosted on Squarespace, to the S3 bucket became a puzzle. DNS configurations, always tricky, necessitated a rethink and reconfiguration of my domain setup.
+However, a new challenge arose when trying to link my custom domain. DNS configurations can be tricky, and I was reminded of that when trying to set up a CNAME record for my domain hosted on Squarespace. A conflict with an existing record meant I had to reconfigure my domain setup.
 
 ## **Navigating SSL with Amazon CloudFront:**
 
-A secure website was my next goal, leading me to set up Amazon CloudFront with an SSL certificate via Amazon Certificate Manager (ACM). This stage of the journey was a mixed bag:
+To make sure my website was secure via HTTPS, I turned to Amazon CloudFront with an SSL certificate from Amazon Certificate Manager (ACM). Here, I encountered a few more challenges:
 
-- The prolonged wait as my certificate's status remained in "Pending validation".
-- The intricate dance of DNS validation, which meant adding a CNAME record to my domain's settings.
-- A momentary pause in CloudFront when choosing the SSL certificate, given its pending validation.
-
-## **GitHub: An Unexpected Hurdle**
-
-With the AWS side progressing, I shifted my attention to GitHub, ready to initialize my repository. Crafting a README was my first step—a foundation for my project's documentation. But pushing my initial commit unveiled an unexpected challenge. GitHub had deprecated password authentication, and my commit was denied.
-
-After some research, I stumbled upon a workaround: a GitHub personal access token. This token, when configured correctly, allowed me to bypass the password requirement, and my commit found its way to the repository.
+- The certificate status remained "Pending validation" longer than I expected.
+- I opted for DNS validation for the certificate, which required adding a CNAME record to my domain's DNS settings.
+- I even had a moment of confusion selecting the correct SSL certificate in CloudFront, as the options were grayed out due to the certificate's pending validation status.
 
 ## **Reflecting on Day 1:**
 
-As the day drew to a close, I took a moment to reflect. The unexpected challenges, the triumphs, the moments of doubt, and the subsequent breakthroughs—all made Day 1 an unparalleled learning experience. With the foundation set, I'm now eager to continue my Cloud Resume Challenge journey, ready to face, learn, and share whatever Day 2 brings.
+The little bumps in the road reminded me of a few things; just like most things in life, when working in the cloud, things can change quickly, but there’s a solution to everything and being a flexible and knowing when to pivot is part of the journey. 💡
 
