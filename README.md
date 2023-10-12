@@ -12,6 +12,7 @@ This project is a manifestation of the Cloud Resume Challenge, where I've employ
 ## Architecture Diagram
 ![Screenshot 2023-10-11 at 6 36 16 PM](https://github.com/alexmerelus/cloud-resume-challenge/assets/138509128/741de91f-bd8e-4385-ba48-27ca70c83378)
 
+The website "alexmerelus.me" serves as an online resume, displaying visitor counts. It's hosted on Amazon S3 and delivered via CloudFront for speed. The domain is resolved through Amazon Route 53 to CloudFront. The visitor count is fetched via an AJAX request to Amazon API Gateway, which then triggers an AWS Lambda function. This Lambda interacts with DynamoDB to manage the visitor count. Permissions are managed by Amazon IAM, and the system's health is monitored using Amazon CloudWatch.
 
 ## Technologies Used
 - **AWS Services**: S3 for static hosting, Lambda for serverless computing, API Gateway for routing, DynamoDB for storing visitor counts.
