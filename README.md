@@ -2,6 +2,7 @@
 
 ## Introduction
 This project is a manifestation of the Cloud Resume Challenge, where I'll employ several AWS services and best practices to deploy a static website, integrated with a backend to showcase my resume and cloud skills with projects. With a primary focus on cloud security and compliance templates.
+### [AWS IAM Project](https://github.com/alexmerelus/IAM-Cloud-Project)
 
 ## Features
 - **Static Website**: Hosted on AWS S3, presenting my professional journey.
@@ -30,6 +31,9 @@ The shift from a passive visitor count to an active voting system also allowed m
 
 ## Modifications and Extensions
 - **Cloud Security Focus**: Incorporated best practices and templates to ensure the cloud infrastructure is secure and compliant.
+
+
+
 
 ## Contact Information
 - **LinkedIn**: [Alex Merelus](https://linkedin.com/in/alexmerelus)
